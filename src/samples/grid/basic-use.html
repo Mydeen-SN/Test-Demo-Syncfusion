@@ -1,0 +1,17 @@
+<template>
+  <require from="./basic-use.css"></require>
+  <div>
+     <ej-grid ej-data-source.bind="EmployeesList" ej-page-settings.bind ="page" ej-allow-paging = true>
+       <ej-col ej-header-text="Basic Details">
+         <ej-template>
+           <div class="entries"><b>Employee ID: </b>${ID}</div>
+           <div class="entries"><b>Employee Name: </b>${Name}</div>
+           <div class="entries"><b>Gender: </b>${Gender}</div>
+         </ej-template>
+       </ej-col>
+       <ej-col ej-field="CompanyName" ej-header-text="Company Name"></ej-col>
+       <ej-col ej-field="Country" ej-header-text="Country"></ej-col>
+       <ej-col ej-field="Phone" ej-header-text="Phone"></ej-col>
+    </ej-grid>
+  </div>
+</template>
