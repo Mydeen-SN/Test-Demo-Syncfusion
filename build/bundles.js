@@ -8,6 +8,7 @@ var nonSampleBundle = [
   "shared/*.html!text",
   "[installation/*.js]",
   "installation/*.html!text",
+  "[test-syncfusion-bridge/**/*]",
   "[about/*.js]",
   "about/*.html!text",
   "[theme-selector/*.js]",
@@ -28,7 +29,8 @@ var aureliaBundle = [
 
 var pluginsBundle = [
   "[aurelia-syncfusion-bridge]",
-  "[test-syncfusion-bridge/**/*.js]",
+  "[test-syncfusion-bridge/**/*]",
+  "test-syncfusion-bridge/**/*",
   "test-syncfusion-bridge/**/*.html!text",
   "showdown",
   "prism",

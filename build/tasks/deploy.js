@@ -15,7 +15,12 @@ gulp.task('deploy-gh-pages', function() {
     './jspm_packages/npm/font-awesome@*/**/*',
     './jspm_packages/npm/font-awesome*.js',
 	'./jspm_packages/npm/test-syncfusion-bridge@*/**/*',
-	'vendors'
+	'./jspm_packages/npm/jquery@*.js',
+	'./jspm_packages/npm/jquery.easing@*/**/*',
+	'./jspm_packages/npm/jquery.easing@*.js',
+	'./jspm_packages/npm/jsrender@*.js',
+	'./jspm_packages/npm/jsrender@*/**/*',
+	'vendors/**/*',
    // './jspm_packages/kendo/bower-kendo-ui@*/styles/**/*',
     //'./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.spreadsheet.min.js',
     // '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.all.min.js',
