@@ -1,0 +1,10 @@
+{
+  "title": "Menu",
+  "documentation":"http://help.syncfusion.com/js/api/ejMenu",
+  "samples": {
+    "basic-use": {
+      "default" : true,
+      "files": ["html", "js"]
+    }
+  }
+}
