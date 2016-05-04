@@ -1,0 +1,1 @@
+module.exports = require("npm:jsrender@0.9.75/jsrender");
