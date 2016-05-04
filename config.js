@@ -1,7 +1,7 @@
 System.config({
-  defaultJSExtensions: true,
-  transpiler: "babel",
-  babelOptions: {
+  "defaultJSExtensions": true,
+  "transpiler": "babel",
+  "babelOptions": {
     "optional": [
       "runtime",
       "optimisation.modules.system",
@@ -9,20 +9,18 @@ System.config({
       "es7.classProperties"
     ]
   },
-  paths: {
+  "paths": {
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
     "ej.*": "vendors/scripts/web/ej.*.js"
   },
-
-  meta: {
+  "meta": {
     "showdown/dist/showdown.js": {
       "format": "global"
     }
   },
-
-  map: {
+  "map": {
     "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.3.2",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0",
     "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.2.0",
@@ -34,7 +32,6 @@ System.config({
     "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.2.0",
     "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
     "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.2.0",
-    "aurelia-syncfusion-bridge": "npm:test-syncfusion-bridge@0.0.4",
     "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.2.0",
     "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.2",
     "babel": "npm:babel-core@5.8.38",
@@ -435,4 +432,4 @@ System.config({
       "y18n": "npm:y18n@3.2.1"
     }
   }
-});
+})
