@@ -433,7 +433,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-13c43758f9": [
+    "app-build-28308b0e9e": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
@@ -455,7 +455,6 @@ System.config({
       "github:twbs/bootstrap@3.3.6/js/bootstrap",
       "installation/installation",
       "installation/installation.html!github:systemjs/plugin-text@0.0.4",
-      "kendo-build",
       "main",
       "nav-bar",
       "nav-bar.html!github:systemjs/plugin-text@0.0.4",
