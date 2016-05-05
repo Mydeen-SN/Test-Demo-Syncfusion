@@ -433,7 +433,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-28308b0e9e": [
+    "app-build-250cda8cba": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
