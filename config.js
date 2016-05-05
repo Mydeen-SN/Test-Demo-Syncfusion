@@ -433,7 +433,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-ce8514e42c": [
+    "app-build-9f5d18460d": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
@@ -1202,6 +1202,8 @@ System.config({
       "npm:core-js@2.2.2/library/web/immediate",
       "npm:core-js@2.2.2/library/web/index",
       "npm:core-js@2.2.2/library/web/timers",
+      "npm:jquery.easing@1.3.2",
+      "npm:jquery.easing@1.3.2/jquery.easing",
       "npm:jquery@2.2.3",
       "npm:jquery@2.2.3/dist/jquery",
       "npm:process@0.11.2",
