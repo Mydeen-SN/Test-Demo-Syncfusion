@@ -28,13 +28,14 @@ var aureliaBundle = [
 ];
 
 var pluginsBundle = [
-  "[aurelia-syncfusion-bridge]",
-  "[test-syncfusion-bridge/**/*]",
-  "test-syncfusion-bridge/**/*",
-  "test-syncfusion-bridge/**/*.html!text",
+   "[aurelia-syncfusion-bridge]",
+  "[aurelia-syncfusion-bridge/**/*.js]",
+  "aurelia-syncfusion-bridge/**/*.html!text",
   "showdown",
   "prism",
   "jquery",
+  "jquery-easing",
+  "jsrender",
   "css",
   "text",
   // "core-js",
