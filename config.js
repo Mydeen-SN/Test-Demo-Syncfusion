@@ -433,7 +433,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-9f5d18460d": [
+    "app-build-13c43758f9": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
@@ -1206,6 +1206,8 @@ System.config({
       "npm:jquery.easing@1.3.2/jquery.easing",
       "npm:jquery@2.2.3",
       "npm:jquery@2.2.3/dist/jquery",
+      "npm:jsrender@0.9.75",
+      "npm:jsrender@0.9.75/jsrender",
       "npm:process@0.11.2",
       "npm:process@0.11.2/browser",
       "npm:showdown-prettify@1.3.0",
