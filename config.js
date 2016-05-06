@@ -425,7 +425,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-d66b4231bd": [
+    "app-build-24a25ae848": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
