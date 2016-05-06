@@ -13,7 +13,7 @@ System.config({
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
-    "ej.*": "vendors/scripts/web/ej.*.js"
+    "ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@*/Scripts/web/ej.*.js"
   },
   "meta": {
     "showdown/dist/showdown.js": {
@@ -425,7 +425,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-d07926576b": [
+    "app-build-f33ddca481": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
