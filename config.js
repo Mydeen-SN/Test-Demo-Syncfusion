@@ -13,7 +13,7 @@ System.config({
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
-    "ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@*/Scripts/web/ej.*.js"
+    "ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.1.41/Scripts/web/ej.*.js"
   },
   "meta": {
     "showdown/dist/showdown.js": {
